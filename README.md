@@ -1,3 +1,6 @@
-# programacion1 IA
-##practica 3 resuelta
-### happy code
+# programacion1IA
+
+Practica 3,4CLase
+
+Ejercicios de clase 26/04 resueltos, puede que alguno encuentre otras manera.
+Happy code
