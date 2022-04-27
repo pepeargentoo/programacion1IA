@@ -8,50 +8,50 @@ a recibir. Utilizar la siguiente tabla de descuentos
 Lunes Mi´ercoles Jueves
 Descuento 10 % 8 % 5 %
 """
-item = input('ingrese item')
-if (item == 'Zapatillas' or item == 'Remeras' or item == 'Pantalones'):
-    sucursal = input('ingrese sucursal')
-    if(sucursal == 'Rosario' or sucursal == 'Funes' or sucursal == 'Roldan'):
-        dia = input('Ingrese Dia de la Semana')
+item = input("ingrese item")
+if item == "Zapatillas" or item == "Remeras" or item == "Pantalones":
+    sucursal = input("ingrese sucursal")
+    if sucursal == "Rosario" or sucursal == "Funes" or sucursal == "Roldan":
+        dia = input("Ingrese Dia de la Semana")
         descdia = 0
-        if (dia =='Lunes'):
+        if dia == "Lunes":
             descdia = 10
-        if (dia =='Miercoles'):
+        if dia == "Miercoles":
             descdia = 8
-        if (dia == 'Jueves'):
+        if dia == "Jueves":
             descdia = 5
-        if(item == 'Zapatillas' and sucursal == 'Rosario'):
+        if item == "Zapatillas" and sucursal == "Rosario":
             desc = 30
-            print(desc + descdia,end='%')
-        if (item == 'Zapatillas' and sucursal == 'Funes'):
+            print(desc + descdia, end="%")
+        if item == "Zapatillas" and sucursal == "Funes":
             desc = 40
-            print(desc + descdia,end='%')
+            print(desc + descdia, end="%")
 
-        if (item == 'Zapatillas' and sucursal == 'Roldan'):
+        if item == "Zapatillas" and sucursal == "Roldan":
             desc = 25
-            print(desc + descdia,end='%')
+            print(desc + descdia, end="%")
 
-        if (item == 'Remeras' and sucursal == 'Rosario'):
+        if item == "Remeras" and sucursal == "Rosario":
             desc = 20
-            print(desc + descdia,end='%')
-        if (item == 'Remeras' and sucursal == 'Funes'):
+            print(desc + descdia, end="%")
+        if item == "Remeras" and sucursal == "Funes":
             desc = 30
-            print(desc + descdia,end='%')
-        if (item == 'Remeras' and sucursal == 'Roldan'):
+            print(desc + descdia, end="%")
+        if item == "Remeras" and sucursal == "Roldan":
             desc = 15
-            print(desc + descdia,end='%')
+            print(desc + descdia, end="%")
 
-        if (item == 'Pantalones' and sucursal == 'Rosario'):
+        if item == "Pantalones" and sucursal == "Rosario":
             desc = 10
-            print(desc + descdia,end='%')
-        if (item == 'Pantalones' and sucursal == 'Funes'):
+            print(desc + descdia, end="%")
+        if item == "Pantalones" and sucursal == "Funes":
             desc = 5
-            print(desc + descdia,end='%')
-        if (item == 'Pantalones' and sucursal == 'Roldan'):
+            print(desc + descdia, end="%")
+        if item == "Pantalones" and sucursal == "Roldan":
             desc = 20
-            print(desc + descdia,end='%')
+            print(desc + descdia, end="%")
 
     else:
-        print('No existe sucursal')
+        print("No existe sucursal")
 else:
-    print('El item no exite')
+    print("El item no exite")

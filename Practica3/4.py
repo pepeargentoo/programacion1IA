@@ -3,18 +3,16 @@
 """
 
 try:
-    lado1 = int(input('ingrese lado'))
-    lado2 = int(input('ingrese lado'))
-    lado3 = int(input('ingrese lado'))
+    lado1 = int(input("ingrese lado"))
+    lado2 = int(input("ingrese lado"))
+    lado3 = int(input("ingrese lado"))
 
-    if ((lado1 == lado2) and (lado1 == lado3) and (lado2 == lado3)):
-        print('Es equilatero')
+    if (lado1 == lado2) and (lado1 == lado3) and (lado2 == lado3):
+        print("Es equilatero")
     else:
-        if ((lado1 != lado2) and (lado1 != lado3) and (lado2 != lado3)):
-            print('escaleno')
+        if (lado1 != lado2) and (lado1 != lado3) and (lado2 != lado3):
+            print("escaleno")
         else:
-            print('isosceles')
-except:
-  print('no ingresaste un numero')
-
-
+            print("isosceles")
+except ValueError:
+    print("no ingresaste un numero")

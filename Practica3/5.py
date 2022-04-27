@@ -5,20 +5,26 @@
 respectivamente. Ingresar una calificaci´on alfab´etica e informar por pantalla la calificaci´on num´erica
 correspondiente, en caso de ingresar cualquier otra letra mostrar ((error calificaci´on inexistente)).
 """
-calificacion = input('ingrese letra:\n')
-if(calificacion == 'I' or calificacion =='A' or calificacion == 'B'
-   or calificacion =='M' or calificacion == 'D' or calificacion == 'E' ):
-    if(calificacion =='I'):
+calificacion = input("ingrese letra:\n")
+if (
+    calificacion == "I"
+    or calificacion == "A"
+    or calificacion == "B"
+    or calificacion == "M"
+    or calificacion == "D"
+    or calificacion == "E"
+):
+    if calificacion == "I":
         print(5)
-    if (calificacion == 'A'):
+    if calificacion == "A":
         print(6)
-    if (calificacion == 'B'):
+    if calificacion == "B":
         print(7)
-    if (calificacion == 'M'):
+    if calificacion == "M":
         print(8)
-    if (calificacion == 'D'):
+    if calificacion == "D":
         print(9)
-    if (calificacion == 'E'):
+    if calificacion == "E":
         print(10)
 else:
-    print('error calificacion inexistente')
+    print("error calificacion inexistente")
