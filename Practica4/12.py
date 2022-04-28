@@ -18,7 +18,7 @@ while True:
         suma = 0
         try:
             for i in range(int(ingreso)):
-                suma+=i
+                suma += i
             print(suma)
         except ValueError:
-            print('no ingreso un numero')
+            print("no ingreso un numero")

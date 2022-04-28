@@ -9,7 +9,7 @@ c2 = 1
 print(c1, end=" ")
 print(c2, end=" ")
 for i in range(8):
-    aux = c1+c2
+    aux = c1 + c2
     print(aux, end=" ")
     c1 = c2
     c2 = aux

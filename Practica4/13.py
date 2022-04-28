@@ -1,6 +1,7 @@
 """
 13. Una mañana ponés un billete en la vereda al lado del Monumento a la Bandera.
- A partir de ahí, cada día vas y duplicás la cantidad de billetes, apilándolos prolijamente. ¿Cuánto tiempo pasa antes de que
+ A partir de ahí, cada día vas y duplicás la cantidad de billetes, apilándolos prolijamente.
+  ¿Cuánto tiempo pasa antes de que
 la pila de billetes sea más alta que la del Monumento? Considere los siguientes valores para comenzar
 a resolver el problema:
 billete_grosor = 0.11 * 0.001 # grosor de un billete en metros
@@ -14,8 +15,8 @@ altura_monumento = 70
 cantbilletes = 1
 dias = 0
 while True:
-    cantbilletes=cantbilletes*2
-    dias +=1
-    if (cantbilletes*billete_grosor)>= altura_monumento:
+    cantbilletes = cantbilletes * 2
+    dias += 1
+    if (cantbilletes * billete_grosor) >= altura_monumento:
         break
 print(dias)

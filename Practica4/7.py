@@ -12,6 +12,6 @@ print ( i )
 muestra los valores de la lista al final muestra un 3 porque es el ultimo valor que tenia la lista
 """
 i = 1
-for i in [1 , 2 , 3]:
-    print ( i )
-print ( i )
+for i in [1, 2, 3]:
+    print(i)
+print(i)
