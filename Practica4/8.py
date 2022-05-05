@@ -2,10 +2,11 @@
 8. Resuelva los siguientes ejercicios
 a. Calcular el cuadrado de los primeros 10 números enteros.
 b. Calcular la suma de los números enteros entre 0 y 100 inclusive.
-c. Calcular la suma de los números pares menores a 100. ¿Cuántos números pares hay menores a
+c. Calcular la suma de los números pares menores a 100.
+¿Cuántos números pares hay menores a
 100?
-d. Calcular la suma de los números impares menores a 100. ¿Cuántos números impares hay menores
-a 100?
+d. Calcular la suma de los números impares menores a 100.
+¿Cuántos números impares hay menores a 100?
 """
 print("A)")
 for i in range(10):

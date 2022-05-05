@@ -1,5 +1,6 @@
 """
-4. Dados 3 lados de un tri´angulo, informar si el mismo es equil´atero, is´osceles o escaleno.
+4. Dados 3 lados de un tri´angulo, informar si el mismo es
+equil´atero, is´osceles o escaleno.
 """
 
 try:

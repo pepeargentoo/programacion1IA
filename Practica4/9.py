@@ -1,6 +1,6 @@
 """
-9. ¿Cuál es el problema asociado al siguiente programa? No hace falta ejecutarlo para responder esta
-pregunta.
+9. ¿Cuál es el problema asociado al siguiente programa?
+No hace falta ejecutarlo para responder esta pregunta.
 x = 0
 while x < 5:
     print ( x )

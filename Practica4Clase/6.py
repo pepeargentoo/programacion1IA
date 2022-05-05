@@ -1,6 +1,8 @@
 """
-Escriba un programa que dada una lista numérica compute la suma de los números pares.
-Utilice un bucle while y la sentencia continue para saltear los casos donde el número no sea par.
+Escriba un programa que dada una lista numérica compute
+la suma de los números pares.
+Utilice un bucle while y la sentencia continue para
+saltear los casos donde el número no sea par.
 """
 # maximo la longitud de las listas que ingresa
 # si queres tener listas mas grande cambia el 4 por el numero que quieras jejej

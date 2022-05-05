@@ -1,6 +1,8 @@
 """
-Escribir un programa que le pregunte a las personas su fecha de cumplea˜nos y en base a eso imprimir
-su signo zod´ıaco. Recomendaci´on, pedirle a la persona ingresar la fecha con cierto formato, por ejemplo
+Escribir un programa que le pregunte a las personas su
+fecha de cumplea˜nos y en base a eso imprimir
+su signo zod´ıaco. Recomendaci´on, pedirle a la persona
+ingresar la fecha con cierto formato, por ejemplo
 DD/MM y si la persona no lo respeta, imprimir un mensaje de error.
 """
 
@@ -11,7 +13,8 @@ def validate(fecha):
         try:
             tmp[0] = int(tmp[0])
             tmp[1] = int(tmp[1])
-            if (tmp[0] >= 1 and tmp[0] <= 31) and (tmp[1] >= 1 and tmp[1] <= 12):
+            if (tmp[0] >= 1 and tmp[0] <= 31) and (
+                    tmp[1] >= 1 and tmp[1] <= 12):
                 return True
             else:
                 return False

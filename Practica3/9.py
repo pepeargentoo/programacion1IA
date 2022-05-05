@@ -1,9 +1,12 @@
 """
-9. Ahora, supongamos que ademas dependiendo del dıa de la semana se puede recibir un descuento
-adicional acumulable.
-Es decir, si se recibi´o un descuento del 10 % seg´un el ´ıtem y la sede y la compra
-se realiza un lunes, el descuento total ser´a un 20 % . Escribir un programa en el que la persona pueda
-ingresar el d´ıa de la semana, el item a comprar y la sede del local. Luego, informar el descuento total
+9. Ahora, supongamos que ademas dependiendo del dıa de la semana
+se puede recibir un descuento adicional acumulable.
+Es decir, si se recibi´o un descuento del 10 % seg´un el ´ıtem y
+la sede y la compra
+se realiza un lunes, el descuento total ser´a un 20 % . Escribir un
+programa en el que la persona pueda
+ingresar el d´ıa de la semana, el item a comprar y la sede del local.
+Luego, informar el descuento total
 a recibir. Utilizar la siguiente tabla de descuentos
 Lunes Mi´ercoles Jueves
 Descuento 10 % 8 % 5 %

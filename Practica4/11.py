@@ -1,6 +1,8 @@
 """
-11. Escriba un programa que dada una secuencia numérica compute la suma de los números pares. Utilice
-un bucle while y la sentencia continue para saltear los casos donde el número no sea par.
+11. Escriba un programa que dada una secuencia numérica
+compute la suma de los números pares. Utilice
+un bucle while y la sentencia continue para saltear los
+casos donde el número no sea par.
 Resultados esperados:
 valores = [1 , 2 , 3 , 4 , 5 , 6 , 7, 8 , 9 , 10]
 # suma -> 30

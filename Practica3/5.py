@@ -2,17 +2,19 @@
 5. Convertir las calificaciones alfab´eticas
 ‘I’, ‘A’, ‘B’, ‘M’, ‘D’ y ‘E’ en calificaciones num´ericas
 5, 6, 7, 8, 9 y 10
-respectivamente. Ingresar una calificaci´on alfab´etica e informar por pantalla la calificaci´on num´erica
-correspondiente, en caso de ingresar cualquier otra letra mostrar ((error calificaci´on inexistente)).
+respectivamente. Ingresar una calificaci´on alfab´etica e
+informar por pantalla la calificaci´on num´erica
+correspondiente, en caso de ingresar cualquier otra letra
+mostrar ((error calificaci´on inexistente)).
 """
 calificacion = input("ingrese letra:\n")
 if (
-    calificacion == "I"
-    or calificacion == "A"
-    or calificacion == "B"
-    or calificacion == "M"
-    or calificacion == "D"
-    or calificacion == "E"
+    calificacion == "I" or
+    calificacion == "A" or
+    calificacion == "B" or
+    calificacion == "M" or
+    calificacion == "D" or
+    calificacion == "E"
 ):
     if calificacion == "I":
         print(5)

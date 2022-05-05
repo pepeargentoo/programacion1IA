@@ -1,10 +1,12 @@
 """
-8. Una marca de ropa tienen descuentos diferentes dependiendo de la sede del local:
+8. Una marca de ropa tienen descuentos diferentes
+dependiendo de la sede del local:
 Item Rosario Funes Rold´an
 Zapatillas 30 % 40 % 25 %
 Remeras 20 % 30 % 15 %
 Pantalones 10 % 5 % 20 %
-Dado un item y la sede del local, devolver el descuento que se recibir´a.
+Dado un item y la sede del local, devolver el
+descuento que se recibir´a.
 """
 item = input("ingrese item")
 if item == "Zapatillas" or item == "Remeras" or item == "Pantalones":

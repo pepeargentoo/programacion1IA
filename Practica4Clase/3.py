@@ -1,5 +1,6 @@
 """
-Repetir el ejercicio anterior pero garantizando que las listas resultantes no tengan resultados repetidos.
+Repetir el ejercicio anterior pero garantizando que las listas
+resultantes no tengan resultados repetidos.
 """
 numeros = [3, 5, 2, 9, 2, 6, 6, 4, 3, 9, 6, 7, 8, 5, 11]
 pares = []
