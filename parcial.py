@@ -3,7 +3,7 @@ totviajes = 0
 tottiempo = 0
 tiempoviaje= 0
 diasconmenos = 'A'
-for i in range(2):
+for i in range(2): #puse 2 porque me dio paja
     cviajes = 0
     tiempoviaje = 0
     while True:
